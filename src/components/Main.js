@@ -20,7 +20,7 @@ class AppComponent extends React.Component {
   }
 
   fadeOut() {
-    const fadeDuration = 1000;
+    const fadeDuration = 500;
 
     this.setState({ fadeOut: true });
 
@@ -32,7 +32,7 @@ class AppComponent extends React.Component {
   }
 
   render() {
-    const fadeDuration = 1
+    const fadeDuration = 0.5
 
     return (
       <div className="index">

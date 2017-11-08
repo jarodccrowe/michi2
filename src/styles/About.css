@@ -1,4 +1,4 @@
-.about-component {
+.about-component-text {
   height: 100vh;
 }
 
@@ -10,8 +10,12 @@
   margin-top: 20vh;
 }
 
-.about-content {
+.about-content-text {
   padding: 0 19rem;
+}
+
+.about-content-image {
+  margin-right: -19rem;
 }
 
 .large-margin-bottom {

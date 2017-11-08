@@ -10,11 +10,11 @@ class AboutComponent extends React.Component {
   render() {
     return (
       <div className="about-component">
-        <div className="col-md-6 col-md-push-6 vertical-center-r about-content">
+        <div className="col-md-6 col-md-push-6 vertical-center-r about-content-text">
           <p className="large-margin-bottom">
-            ABOUT
+            |&nbsp;&nbsp;&nbsp;ABOUT&nbsp;&nbsp;&nbsp;|
           </p>
-          <div className="large-margin-bottom">
+          <div className="large-margin-bottom text-justify">
             <p>Founded in 2017, Michiru Design Studio is based in Sydney, Australia.</p>
             <p>Prior to starting her own practice, Michiru was one of the founding members of
             Koichi Takada Architects, one of Sydney’s leading architecture and interior design
@@ -34,10 +34,10 @@ class AboutComponent extends React.Component {
           </div>
           <p>CONTACT: info@michirudesign.com</p>
         </div>
-        <div className="col-md-6 col-md-pull-6 vertical-center-l about-content">
-          <div className="text-center">
+        <div className="col-md-6 col-md-pull-6 vertical-center-l">
+          <div className="text-center about-content-image">
             <img className="ig-logo" src={igImage} alt="Michiru Design Studio logo" />
-            <div className="md-margin-bottom">| WEBSITE COMING SOON |</div>
+            <div className="md-margin-bottom">|&nbsp;&nbsp;&nbsp;WEBSITE COMING SOON&nbsp;&nbsp;&nbsp;|</div>
             <div>please let us take you to our instagram page for now</div>
           </div>
         </div>
