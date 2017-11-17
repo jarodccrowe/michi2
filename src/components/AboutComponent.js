@@ -11,7 +11,7 @@ class AboutComponent extends React.Component {
     return (
       <div className="about-component">
         <div className="col-md-6 col-md-push-6 vertical-center-r about-content-text">
-          <p className="large-margin-bottom">
+          <p className="large-margin-bottom p-b-0">
             |&nbsp;&nbsp;&nbsp;ABOUT&nbsp;&nbsp;&nbsp;|
           </p>
           <div className="large-margin-bottom text-justify">
@@ -32,11 +32,13 @@ class AboutComponent extends React.Component {
             working collaboratively with clients and consultants in all stages of the project
             life-cycle in search for the best outcome.</p>
           </div>
-          <p>CONTACT: info@michirudesign.com</p>
+          <p>CONTACT: <a href="mailto:info@michirudesign.com">info@michirudesign.com</a></p>
         </div>
         <div className="col-md-6 col-md-pull-6 vertical-center-l">
           <div className="text-center about-content-image">
-            <img className="ig-logo" src={igImage} alt="Michiru Design Studio logo" />
+            <a href="https://www.instagram.com/michiru.design.studio/">
+              <img className="ig-logo" src={igImage} alt="Michiru Design Studio logo" />
+            </a>
             <div className="md-margin-bottom">|&nbsp;&nbsp;&nbsp;WEBSITE COMING SOON&nbsp;&nbsp;&nbsp;|</div>
             <div>please let us take you to our instagram page for now</div>
           </div>

@@ -16,6 +16,26 @@
 
 .about-content-image {
   margin-right: -19rem;
+  margin-bottom: 0rem;
+}
+
+@media only screen and (max-width : 768px) {
+  .about-content-image {
+    margin-right: 0rem;
+    margin-bottom: 20rem;
+    margin-top: 10rem;
+  }
+
+  .about-content-text {
+    padding: 0 3rem;
+  }
+  .vertical-center-l {
+    margin-top: 5rem;
+  }
+
+  .vertical-center-r {
+    margin-top: 5rem;
+  }
 }
 
 .large-margin-bottom {
